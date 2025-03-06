@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Layout - CSS Position</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Fixed Header -->
+    <header class="header">
+      <h1>My Blog</h1>
+    </header>
+
+    <div class="container">
+      <!-- Sidebar (Absolute Positioned) -->
+      <aside class="sidebar">
+        <h2>Categories</h2>
+        <ul>
+          <li><a href="#">Web Development</a></li>
+          <li><a href="#">UI/UX Design</a></li>
+          <li><a href="#">JavaScript</a></li>
+          <li><a href="#">CSS Tricks</a></li>
+        </ul>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="content">
+        <article>
+          <img
+            src="https://cdn.pixabay.com/photo/2014/06/19/21/36/blog-372771_1280.jpg"
+            alt="Blog Image"
+            width="200px"
+          />
+          <h2>Understanding CSS Position</h2>
+          <p>
+            CSS position properties help us control the placement of elements.
+            There are five types: static, relative, absolute, fixed, and
+            sticky...
+          </p>
+        </article>
+
+        <article>
+          <img src="images/blog2.jpg" alt="Blog Image" />
+          <h2>Flexbox vs Grid: When to Use What?</h2>
+          <p>
+            Both Flexbox and Grid are powerful layout tools. Understanding when
+            to use each one can make your designs more effective...
+          </p>
+        </article>
+      </main>
+    </div>
+  </body>
+</html>
